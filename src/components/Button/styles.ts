@@ -20,7 +20,11 @@ height: 40px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: ${props => props.theme.primary};
+background-color: ${props => props.theme['green-500']};
+outline: none;
+border: none;
+margin: 4px;
+border-radius: 4px;
 
 /* ${props => {
         return css`background-color: ${buttonVariants[props.variant]}`
