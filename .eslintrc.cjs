@@ -31,9 +31,5 @@ module.exports = {
 			"warn",
 			"double"
 		],
-		"semi": [
-			"warn",
-			"always"
-		]
 	}
 };
